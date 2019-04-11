@@ -9,5 +9,6 @@ function setup() {
 }
 
 function draw() {
-    image(img, 
+    image(img, xPos, 0);
+    xPos = xPos + 5; 
 }
